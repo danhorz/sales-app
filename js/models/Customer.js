@@ -20,3 +20,6 @@ Customer.prototype.renderUI = function() {
     `;
     return li;
 };
+Customer.prototype.incrementPurchases = function() {
+    this.totalPurchases++;
+};
