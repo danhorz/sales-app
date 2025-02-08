@@ -33,3 +33,6 @@ Product.prototype.renderUI = function() {
     `;
     return li;
 };
+Product.prototype.hasStock = function(quantity) {
+    return this.stock >= quantity;
+};
